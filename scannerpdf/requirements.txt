@@ -1,6 +1,8 @@
-flask
-opencv-python-headless
-numpy
-fpdf
-pillow
-gunicorn
+-flask
+-opencv-python
++flask
++opencv-python-headless
+ numpy
+ fpdf
+ Pillow
+ gunicorn
