@@ -1,6 +1,6 @@
 flask
-opencv-python
+opencv-python-headless
 numpy
 fpdf
-Pillow
+pillow
 gunicorn
