@@ -1,7 +1,6 @@
 -flask
 -opencv-python
-+flask
-+opencv-python-headless
+-python-headless
  numpy
  fpdf
  Pillow
