@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args:
+    [
+      "build",
+      "-t", "gcr.io/$PROJECT_ID/scannerpdf",
+      "-f", "scannerpdf/Dockerfile",   # caminho relativo ao Dockerfile
+      "scannerpdf"                     # contexto de build: a própria pasta
+    ]
+images:
+- "gcr.io/$PROJECT_ID/scannerpdf"
